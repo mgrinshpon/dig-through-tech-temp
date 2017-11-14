@@ -1,0 +1,26 @@
+{% include 'layout/header.twig.html' %}
+
+<div class="container">
+
+  <h1>{{ page_name }}</h1>
+
+  <table class="table">
+    {% for i in range(0, 3) %}
+    <tr>
+      <td>Deck Name</td>
+      <td># Cards</td>
+      <td>Sats 1</td>
+      <td>Stats 2</td>
+      <td><a class="btn btn-brand btn-sm" href="#"><i class="fa fa-plus"></i></a> <a href="#" class="btn btn-brand btn-sm"><i class="fa fa-close"></i></a>
+    </tr>
+    {% endfor %}
+
+
+  </table>
+
+
+  
+  
+</div>
+
+{% include 'layout/footer.twig.html' %}

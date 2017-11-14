@@ -42,16 +42,16 @@
 							//'images/bg01.jpg': 'center',
 							//'images/bg02.jpg': 'center',
 							//'images/bg03.jpg': 'center',
-							'images/Noah-Bradley_strionic-resonator-3.jpg':'center',
-							'images/Noah-Bradley_sunbond-2.jpg':'center',
-							'images/Noah-Bradley_izzet-guildgate-2-2.jpg':'center',
-							'images/Noah-Bradley_mountain-2-origins-2.jpg':'center',
-							'images/Noah-Bradley_Self-Assembler.jpg':'center',
-							'images/Noah-Bradley_temple-of-mystery-2.jpg':'center',
-							'images/Noah-Bradley_Prophetic-Prism.jpg':'center',
-							'images/Noah-Bradley_evolving-wilds-3.jpg':'center',
+							'/images/Noah-Bradley_strionic-resonator-3.jpg':'center',
+							'/images/Noah-Bradley_sunbond-2.jpg':'center',
+							'/images/Noah-Bradley_izzet-guildgate-2-2.jpg':'center',
+							'/images/Noah-Bradley_mountain-2-origins-2.jpg':'center',
+							'/images/Noah-Bradley_Self-Assembler.jpg':'center',
+							'/images/Noah-Bradley_temple-of-mystery-2.jpg':'center',
+							'/images/Noah-Bradley_Prophetic-Prism.jpg':'center',
+							'/images/Noah-Bradley_evolving-wilds-3.jpg':'center',
 							//'images/Noah-Bradley_MTGAKH_Dawn.jpg':'center',
-							'images/Noah-Bradley_transguild-promenade-2.jpg':'center'
+							'/images/Noah-Bradley_transguild-promenade-2.jpg':'center'
 						},
 
 					// Delay.

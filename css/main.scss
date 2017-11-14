@@ -1,5 +1,10 @@
-@import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+
+
+$black: #000;
+$grey: lighten($black, 30%);
+$white: #fff;
+$brand: yellow;
 
 /*
 	Eventually by HTML5 UP
@@ -23,7 +28,8 @@
 	}
 
 	body {
-		line-height: 1;
+	    line-height: 1;
+	    background-color: $black;
 	}
 
 	ol, ul {
@@ -55,6 +61,33 @@
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
 	}
+
+	.brand {
+	    color: $brand;
+	}
+
+	/* Navigation Menu */
+	.navbar-default {
+	    background-color: transparentize($grey,.5);
+	    color: $white;
+	    border-bottom: 1px solid darken($grey,30%);
+
+		a {
+		    border-bottom: 0px;
+		}
+		li {
+		    &.active {
+
+			color: $white;
+			a {
+			    background-color: $black !important;
+			    color: $white !important;
+			}
+		    }
+		}
+
+	}
+
 
 /* Basic */
 
@@ -351,7 +384,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #1cb495 !important;
+			color: $brand !important;
 			text-decoration: none;
 		}
 
@@ -952,10 +985,10 @@
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
-		background-color: #1cb495;
+		background-color: $brand;
 		border-radius: 6px;
 		border: 0;
-		color: #ffffff !important;
+		color: $black !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 700;

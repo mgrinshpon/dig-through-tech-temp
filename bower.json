@@ -1,0 +1,28 @@
+{
+  "name": "dig-through-tech",
+  "version": "0.0.1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0"
+  },
+  "overrides": {
+    "bootstrap": {
+	"main": [
+          "less/bootstrap.less",
+          "dist/css/bootstrap.min.css",
+            "dist/js/bootstrap.min.js",
+	    "../../css/main.min.css"
+      ]
+    },
+      "font-awesome": {
+	  "main": [
+	      "css/font-awesome.css"
+	  ]
+      }
+  }
+}

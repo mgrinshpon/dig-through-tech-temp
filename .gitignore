@@ -1,2 +1,6 @@
+bower_components/*
 node_modules/*
 vendor/*
+css/*.min.css
+css/*.css
+css/*.css.map

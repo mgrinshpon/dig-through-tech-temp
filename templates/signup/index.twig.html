@@ -1,0 +1,20 @@
+{% include 'layout/header.twig.html' %}
+
+<div class="container">
+
+  <h1>{{ page_name }}</h1>
+  <p>Eneter you email address below to recieve updates when we're ready to launch!</p>
+  <!-- Signup Form -->
+                          <form id="signup-form" method="post" action="#">
+                                <input type="email" name="email" id="email" placeholder="Email Address" />
+                                <input type="submit" value="Get Notified" />
+                                <div class="g-recaptcha" data-sitekey="{{ config.recaptcha_key }}"></div>
+                          </form>
+			  
+
+
+  
+  
+</div>
+
+{% include 'layout/footer.twig.html' %}
